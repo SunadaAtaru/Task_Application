@@ -80,6 +80,17 @@ p {
   color: gray;
 }
 
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+ 
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: gray;
+} 
+ 
+
 /* デバッグウインドウ */
 
 .debug_dump {
