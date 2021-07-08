@@ -8,7 +8,7 @@
 * Ruby
 * Git
 * Heroku
-* ssh2
+* ssh2-2
 
 ```
 $ git clone https://github.com/sample-874/sample-app.git
