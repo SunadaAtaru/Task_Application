@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 20210622131245) do
 
   create_table "tasks", force: :cascade do |t|
-    t.text "detail"
+    t.text "description"
     t.string "name"
     t.integer "user_id"
     t.datetime "created_at", null: false
