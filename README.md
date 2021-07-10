@@ -9,6 +9,7 @@
 * Git
 * Heroku
 * ssh2-2
+* 7.9
 
 ```
 $ git clone https://github.com/sample-874/sample-app.git
