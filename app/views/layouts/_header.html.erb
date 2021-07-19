@@ -1,4 +1,5 @@
-<<header class="navbar navbar-fixed-top navbar-default" id="header">
+<!DOCTYPE html>
+<header class="navbar navbar-fixed-top navbar-default" id="header">
   <div class="container">
     <%= link_to "Task App", root_path, id: "logo" %>
     <nav>
@@ -19,7 +20,6 @@
               <li><%= link_to "設定", edit_user_path(current_user) %></li>
               <li class="dropdown-header">タスク</li>
               <li><%= link_to "タスク一覧", user_tasks_path(current_user) %></li>
-              
               <li class="divider"></li>
               <li><%= link_to "ログアウト", logout_path, method: :delete %></li>
             </ul>
