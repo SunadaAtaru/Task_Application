@@ -8,7 +8,7 @@
 * Ruby
 * Git
 * Heroku
-* ssh2-2
+* ssh2-2(7.22)
 * 7.9
 
 ```
